@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Bestie ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="passwordPage" class="page">
+    <h1>🔒 Enter Password</h1>
+
+    <input
+        type="password"
+        id="password"
+        maxlength="4"
+        placeholder="0607">
+
+    <br><br>
+
+    <button onclick="checkPassword()">Unlock ❤️</button>
+
+    <p id="error"></p>
+</div>
+
+<div id="birthdayPage" class="page hidden">
+    <h1 id="birthdayText"></h1>
+</div>
+
+<div id="surprisePage" class="page hidden">
+    <h2>I Have A Surprise For You 💖</h2>
+
+    <p id="message"></p>
+
+    <div class="buttons">
+        <button onclick="yesClick()">YES ❤️</button>
+        <button id="noBtn" onclick="noClick()">NO 😅</button>
+    </div>
+</div>
+
+<div id="letterPage" class="page hidden">
+
+<div class="letter">
+
+<h2>💌 My Letter</h2>
+
+<p>
+Happy Birthday Bisma ❤️🎂
+
+<br><br>
+
+Tum meri life ke un khaas logon mein se ho jinki value lafzon mein bayan karna mushkil hai.
+
+<br><br>
+
+Thank you for being such an amazing person.
+
+<br><br>
+
+✨ May Allah bless you with endless happiness.<br>
+✨ May all your dreams come true.<br>
+✨ May your smile never fade.<br>
+✨ May your heart always stay peaceful.
+
+<br><br>
+
+Happy Birthday once again ❤️🎉
+</p>
+
+<br>
+
+<button onclick="showPhoto()">
+One More Surprise 🎁
+</button>
+
+</div>
+
+</div>
+
+<div id="photoPage" class="page hidden">
+
+<h1>I Have One More Surprise ❤️</h1>
+
+<img src="photo.jpg" class="photo">
+
+<h2>Forever Special 💖</h2>
+
+</div>
+
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
